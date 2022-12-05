@@ -3,4 +3,4 @@ SELECT
 FROM
   Students
 WHERE
-  postalCode IS NULL;
+  postalCode IS NOT NULL;
